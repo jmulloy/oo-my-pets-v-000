@@ -1,10 +1,10 @@
 class Owner
 
-attr_accessor :human, :fish, :cat, :dog
+attr_accessor :human
   @@all = []
 
 def self.all
-  @@all 
+  @@all
 end
 
 end
