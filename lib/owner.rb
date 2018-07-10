@@ -15,8 +15,6 @@ attr_accessor :name, :species
     self.all.count
   end
 
-  def self.species
-
   def initialize(name)
     @name = name
     @@all << self
