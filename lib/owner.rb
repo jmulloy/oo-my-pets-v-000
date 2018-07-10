@@ -26,6 +26,8 @@ attr_reader :species
     "I am a #{self.species}."
   end
 
+  
+
 
 
 end
