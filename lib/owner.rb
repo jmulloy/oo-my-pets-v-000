@@ -21,6 +21,7 @@ attr_accessor :name, :species
     @species = species
   end
 
+  
 
 
 end
