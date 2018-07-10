@@ -20,5 +20,7 @@ attr_accessor :name, :species
     @@all << self
   end
 
+  def 
+
 
 end
