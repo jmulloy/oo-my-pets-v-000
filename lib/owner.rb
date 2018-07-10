@@ -1,6 +1,7 @@
 class Owner
 
 attr_accessor :name, :species
+attr_reader :species
   @@all = []
 
   def self.all
