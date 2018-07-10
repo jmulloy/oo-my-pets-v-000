@@ -77,5 +77,6 @@ attr_reader :species, :pets
     #{@pets[:dog(s)].count},
     #{@pets[:cat(s)].count}"
   end
+end
 
 end
