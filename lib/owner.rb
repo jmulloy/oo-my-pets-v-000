@@ -16,7 +16,7 @@ attr_accessor :name, :species
   end
 
   def initialize(name)
-    @name = name
+  
     @@all << self
     @species = species
   end
