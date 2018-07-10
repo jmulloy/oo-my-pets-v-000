@@ -30,6 +30,7 @@ attr_reader :species, :pets
     @pets = {:fishes => [], :dogs => [], :cats => []}
 end
 
-  
+  def buy_fish
+
 
 end
