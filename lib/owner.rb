@@ -20,15 +20,14 @@ attr_reader :species, :pets
 
     @@all << self
     @species = species
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
   def say_species
     "I am a #{self.species}."
   end
 
-  def pets
-    @pets = {:fishes => [], :dogs => [], :cats => []}
-end
+  
 
   def buy_fish(name)
     Fish
