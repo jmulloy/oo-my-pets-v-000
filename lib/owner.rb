@@ -12,7 +12,7 @@ attr_accessor :name
   end
 
   def self.count
-
+    self.all.count
   end
 
   def initialize(name)
