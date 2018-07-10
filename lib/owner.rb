@@ -60,7 +60,12 @@ attr_reader :species, :pets
   def feed_fish
   self.pets[:fishes].each do |fish|
     fish.mood = "happy"
+    end
   end
-end
+
+  def sell_pets
+    
+  end
+
 
 end
