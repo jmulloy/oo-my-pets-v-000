@@ -64,7 +64,7 @@ attr_reader :species, :pets
   end
 
   def sell_pets
-    
+    self.sell_pets
   end
 
 
