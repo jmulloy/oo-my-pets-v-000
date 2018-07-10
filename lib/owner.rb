@@ -18,6 +18,7 @@ attr_accessor :name, :species
   def initialize(name)
     @name = name
     @@all << self
+    @species = species
   end
 
   def species(h)
