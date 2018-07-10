@@ -21,7 +21,7 @@ attr_reader :species, :pets
     @@all << self
     @species = species
     @pets = {:fishes => [], :dogs => [], :cats => []}
-    
+
   end
 
   def say_species
@@ -45,7 +45,11 @@ attr_reader :species, :pets
     self.pets[:dogs] << dog
   end
 
-  
-
+  def walk_dogs(name)
+    dog = Dog.new(name)
+    self.pets[:dogs] << dog
+    self.walk_dogs
+    
+  end
 
 end
