@@ -29,7 +29,7 @@ attr_reader :species, :pets
   def pets
     @pets = {:fishes => [], :dogs => [], :cats => []
 }
-
+end
 
 
 end
