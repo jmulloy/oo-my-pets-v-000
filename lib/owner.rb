@@ -8,7 +8,11 @@ attr_accessor :name
   end
 
   def self.reset_all
-    
+
+  end
+
+  def self.count
+
   end
 
   def initialize(name)
