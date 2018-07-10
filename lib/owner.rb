@@ -49,7 +49,7 @@ attr_reader :species, :pets
     dog = Dog.new(name)
     self.pets[:dogs] << dog
     self.walk_dogs
-    
+    dog.mood = "human"
   end
 
 end
