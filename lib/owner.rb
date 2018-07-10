@@ -22,6 +22,9 @@ attr_reader :species
     @species = species
   end
 
+  def species(human)
+    puts "I am a human."
+  end
 
 
 
