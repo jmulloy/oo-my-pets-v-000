@@ -16,12 +16,12 @@ attr_reader :species, :pets
     self.all.count
   end
 
-  def initialize(species = "hamster", mood)
+  def initialize(species = "hamster")
 
     @@all << self
     @species = species
     @pets = {:fishes => [], :dogs => [], :cats => []}
-    @mood = mood
+    
   end
 
   def say_species
