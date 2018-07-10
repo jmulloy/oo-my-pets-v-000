@@ -1,13 +1,13 @@
 class Owner
 
-attr_accessor :human
+attr_accessor :name
   @@all = []
 
 def self.all
   @@all
 end
 
-def initialize(human_name)
-  @human_name = human
+def initialize(name)
+  @name = name
 
 end
