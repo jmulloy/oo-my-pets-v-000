@@ -1,6 +1,6 @@
 class Owner
 
-attr_accessor :name
+attr_accessor :name, :pets
 attr_reader :species, :pets
   @@all = []
 
@@ -27,7 +27,7 @@ attr_reader :species, :pets
     "I am a #{self.species}."
   end
 
-  
+
 
   def buy_fish(name)
     Fish
