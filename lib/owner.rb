@@ -21,7 +21,7 @@ attr_reader :species, :pets
     @@all << self
     @species = species
     @pets = {:fishes => [], :dogs => [], :cats => []}
-    
+
   end
 
   def say_species
