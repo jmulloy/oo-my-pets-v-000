@@ -48,7 +48,6 @@ attr_reader :species, :pets
   def walk_dogs
     dog = Dog.new(name)
     self.pets[:dogs] << dog
-    self.walk_dogs
     dog.mood
   end
 
