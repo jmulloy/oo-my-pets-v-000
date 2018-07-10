@@ -16,7 +16,7 @@ attr_reader :species
     self.all.count
   end
 
-  def initialize(species)
+  def initialize(species = "hamster")
 
     @@all << self
     @species = species
