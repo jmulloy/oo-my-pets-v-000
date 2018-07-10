@@ -30,7 +30,8 @@ attr_reader :species, :pets
 
 
   def buy_fish(name)
-    Fish.new
+    Fish.new = fish
+    @@all << fish
   end
 
 
