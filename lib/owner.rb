@@ -31,7 +31,7 @@ attr_reader :species, :pets
 end
 
   def buy_fish(name)
-    
+    Fish
   end
 
 
