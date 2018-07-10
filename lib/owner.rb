@@ -74,7 +74,7 @@ attr_reader :species, :pets
 
   def list_pets
     "I have #{@pets[:fishes].couint}. fishes, #{@pets[:dogs].count} dog(s), #{@pets[:cats].count} cat(s)."
-  end
+  
 end
 
 end
